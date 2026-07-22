@@ -1,4 +1,33 @@
-result/*
-result
-TestData
+# Local sensor data and generated results
+TestData/
+result/
+results/
+outputs/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Coverage and build artifacts
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Editors and operating systems
+.vscode/
+.idea/
 .DS_Store
+Thumbs.db
